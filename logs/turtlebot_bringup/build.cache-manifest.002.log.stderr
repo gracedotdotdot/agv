@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/execution/stages.py", line 174, in function_proxy
+    return function(logger, event_queue, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/jobs/utils.py", line 143, in copyfiles
+    shutil.copy(source_path, dest_path)
+  File "/usr/lib/python2.7/shutil.py", line 139, in copy
+    copyfile(src, dst)
+  File "/usr/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: '/home/avg/catkin_ws/src/turtlebot/turtlebot_bringup/package.xml'
+
+Stage `cache-manifest` failed with arguments:
+  source_paths: ['/home/avg/catkin_ws/src/turtlebot/turtlebot_bringup/package.xml']
+  dest_path: /home/avg/catkin_ws/.catkin_tools/profiles/default/packages/turtlebot_bringup/package.xml

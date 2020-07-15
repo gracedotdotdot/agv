@@ -1,0 +1,5 @@
+turtlebot/turtlebot_navigation_gazebo
+/home/avg/catkin_ws/devel/.private/turtlebot_navigation_gazebo/cmake.lock /home/avg/catkin_ws/devel/./cmake.lock
+/home/avg/catkin_ws/devel/.private/turtlebot_navigation_gazebo/share/turtlebot_navigation_gazebo/cmake/turtlebot_navigation_gazeboConfig.cmake /home/avg/catkin_ws/devel/share/turtlebot_navigation_gazebo/cmake/turtlebot_navigation_gazeboConfig.cmake
+/home/avg/catkin_ws/devel/.private/turtlebot_navigation_gazebo/share/turtlebot_navigation_gazebo/cmake/turtlebot_navigation_gazeboConfig-version.cmake /home/avg/catkin_ws/devel/share/turtlebot_navigation_gazebo/cmake/turtlebot_navigation_gazeboConfig-version.cmake
+/home/avg/catkin_ws/devel/.private/turtlebot_navigation_gazebo/lib/pkgconfig/turtlebot_navigation_gazebo.pc /home/avg/catkin_ws/devel/lib/pkgconfig/turtlebot_navigation_gazebo.pc

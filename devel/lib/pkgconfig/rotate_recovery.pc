@@ -1,0 +1,1 @@
+/home/avg/catkin_ws/devel/.private/rotate_recovery/lib/pkgconfig/rotate_recovery.pc

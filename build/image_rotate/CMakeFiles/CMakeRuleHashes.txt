@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+72055f58653ab0cd25dbca70364cbd44 /home/avg/catkin_ws/devel/.private/image_rotate/include/image_rotate/ImageRotateConfig.h
+da0d5a0b9cb3b074a24e4f4d3dc11d13 CMakeFiles/clean_test_results
+78d74d7592290e9a8168db3be205e09f CMakeFiles/image_rotate_gencfg

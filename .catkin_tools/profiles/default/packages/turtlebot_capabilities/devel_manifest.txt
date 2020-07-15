@@ -1,0 +1,5 @@
+turtlebot/turtlebot_capabilities
+/home/avg/catkin_ws/devel/.private/turtlebot_capabilities/cmake.lock /home/avg/catkin_ws/devel/./cmake.lock
+/home/avg/catkin_ws/devel/.private/turtlebot_capabilities/share/turtlebot_capabilities/cmake/turtlebot_capabilitiesConfig.cmake /home/avg/catkin_ws/devel/share/turtlebot_capabilities/cmake/turtlebot_capabilitiesConfig.cmake
+/home/avg/catkin_ws/devel/.private/turtlebot_capabilities/share/turtlebot_capabilities/cmake/turtlebot_capabilitiesConfig-version.cmake /home/avg/catkin_ws/devel/share/turtlebot_capabilities/cmake/turtlebot_capabilitiesConfig-version.cmake
+/home/avg/catkin_ws/devel/.private/turtlebot_capabilities/lib/pkgconfig/turtlebot_capabilities.pc /home/avg/catkin_ws/devel/lib/pkgconfig/turtlebot_capabilities.pc

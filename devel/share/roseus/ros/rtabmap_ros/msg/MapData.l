@@ -1,0 +1,1 @@
+/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/roseus/ros/rtabmap_ros/msg/MapData.l

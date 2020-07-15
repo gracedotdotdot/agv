@@ -1,0 +1,5 @@
+turtlebot/kobuki_description
+/home/avg/catkin_ws/devel/.private/kobuki_description/cmake.lock /home/avg/catkin_ws/devel/./cmake.lock
+/home/avg/catkin_ws/devel/.private/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake /home/avg/catkin_ws/devel/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake
+/home/avg/catkin_ws/devel/.private/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake /home/avg/catkin_ws/devel/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake
+/home/avg/catkin_ws/devel/.private/kobuki_description/lib/pkgconfig/kobuki_description.pc /home/avg/catkin_ws/devel/lib/pkgconfig/kobuki_description.pc

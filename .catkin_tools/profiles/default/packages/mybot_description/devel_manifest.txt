@@ -1,0 +1,5 @@
+mybot_description
+/home/avg/catkin_ws/devel/.private/mybot_description/cmake.lock /home/avg/catkin_ws/devel/./cmake.lock
+/home/avg/catkin_ws/devel/.private/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake /home/avg/catkin_ws/devel/share/mybot_description/cmake/mybot_descriptionConfig.cmake
+/home/avg/catkin_ws/devel/.private/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake /home/avg/catkin_ws/devel/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake
+/home/avg/catkin_ws/devel/.private/mybot_description/lib/pkgconfig/mybot_description.pc /home/avg/catkin_ws/devel/lib/pkgconfig/mybot_description.pc

@@ -1,0 +1,1 @@
+/home/avg/catkin_ws/devel/.private/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/msg/UpdateSource.js

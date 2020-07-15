@@ -1,0 +1,382 @@
+[35m[1mScanning dependencies of target rtabmap_costmap_plugins[0m
+[  0%] [32mBuilding CXX object CMakeFiles/rtabmap_costmap_plugins.dir/src/costmap_2d/static_layer.cpp.o[0m
+[  1%] [32m[1mLinking CXX shared library /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_costmap_plugins.so[0m
+[35m[1mScanning dependencies of target rtabmap_point_cloud_assembler[0m
+[  1%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_assembler.dir/src/PointCloudAssemblerNode.cpp.o[0m
+[  1%] Built target rtabmap_costmap_plugins
+[  2%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/point_cloud_assembler[0m
+[35m[1mScanning dependencies of target rtabmap_pointcloud_to_depthimage[0m
+[  2%] [32mBuilding CXX object CMakeFiles/rtabmap_pointcloud_to_depthimage.dir/src/PointCloudToDepthImageNode.cpp.o[0m
+[  2%] Built target rtabmap_point_cloud_assembler
+[  3%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/pointcloud_to_depthimage[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_GlobalDescriptor[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_GlobalDescriptor
+[  3%] Built target rtabmap_pointcloud_to_depthimage
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_GetMap[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_GetMap
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_SetGoal[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_SetGoal
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Info[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_Info
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  3%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_GetPlan[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_GetPlan
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_MapGraph[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_MapGraph
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_ScanDescriptor[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_ScanDescriptor
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_SetLabel[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_SetLabel
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_MapData[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_MapData
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_NodeData[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_NodeData
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Path[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_Path
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_PublishMap[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_PublishMap
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_AddLink[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_AddLink
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_GPS[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_GPS
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  3%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_KeyPoint[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_KeyPoint
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_OdomInfo[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_OdomInfo
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_RGBDImage[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_RGBDImage
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_ResetPose[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_ResetPose
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_GetNodeData[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_GetNodeData
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Goal[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_Goal
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_ListLabels[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_ListLabels
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_UserData[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_UserData
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Point2f[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_Point2f
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Link[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_Link
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Point3f[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_Point3f
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_GetMap2[0m
+[  3%] Built target _rtabmap_ros_generate_messages_check_deps_GetMap2
+[35m[1mScanning dependencies of target rtabmap_ros_gencfg[0m
+[  3%] [34m[1mGenerating dynamic reconfigure files from cfg/Camera.cfg: /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py[0m
+Generating reconfiguration files for Camera in rtabmap_ros
+Wrote header file in /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h
+[  3%] Built target rtabmap_ros_gencfg
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  3%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  3%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  3%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  3%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  3%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  3%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  3%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  3%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  3%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  3%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  3%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  3%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rtabmap_imu_to_tf[0m
+[  3%] [32mBuilding CXX object CMakeFiles/rtabmap_imu_to_tf.dir/src/ImuToTFNode.cpp.o[0m
+[  4%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/imu_to_tf[0m
+[  4%] Built target rtabmap_imu_to_tf
+[35m[1mScanning dependencies of target rtabmap_icp_odometry[0m
+[  4%] [32mBuilding CXX object CMakeFiles/rtabmap_icp_odometry.dir/src/ICPOdometryNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_stereo_odometry[0m
+[  4%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_odometry.dir/src/StereoOdometryNode.cpp.o[0m
+[  5%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/icp_odometry[0m
+[  5%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/stereo_odometry[0m
+[  5%] Built target rtabmap_icp_odometry
+[35m[1mScanning dependencies of target rtabmap_rgbd_sync[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_sync.dir/src/RGBDSyncNode.cpp.o[0m
+[  6%] Built target rtabmap_stereo_odometry
+[35m[1mScanning dependencies of target rtabmap[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rtabmap.dir/src/CoreNode.cpp.o[0m
+[  6%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbd_sync[0m
+[  6%] Built target rtabmap_rgbd_sync
+[35m[1mScanning dependencies of target rtabmap_rgbdicp_odometry[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbdicp_odometry.dir/src/RGBDICPOdometryNode.cpp.o[0m
+[  7%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/rtabmap[0m
+[  8%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbdicp_odometry[0m
+[  8%] Built target rtabmap
+[35m[1mScanning dependencies of target rtabmap_rgbd_relay[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_relay.dir/src/RGBDRelayNode.cpp.o[0m
+[  9%] Built target rtabmap_rgbdicp_odometry
+[35m[1mScanning dependencies of target rtabmap_costmap_plugins2[0m
+[  9%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbd_relay[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rtabmap_costmap_plugins2.dir/src/costmap_2d/voxel_layer.cpp.o[0m
+[  9%] Built target rtabmap_rgbd_relay
+[35m[1mScanning dependencies of target rtabmap_rgbd_odometry[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_odometry.dir/src/RGBDOdometryNode.cpp.o[0m
+[  9%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbd_odometry[0m
+[  9%] Built target rtabmap_rgbd_odometry
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_lisp[0m
+[ 10%] [34m[1mGenerating Lisp code from rtabmap_ros/KeyPoint.msg[0m
+[ 10%] [34m[1mGenerating Lisp code from rtabmap_ros/RGBDImage.msg[0m
+[ 11%] [34m[1mGenerating Lisp code from rtabmap_ros/ScanDescriptor.msg[0m
+[ 11%] [34m[1mGenerating Lisp code from rtabmap_ros/Goal.msg[0m
+[ 11%] [34m[1mGenerating Lisp code from rtabmap_ros/NodeData.msg[0m
+[ 12%] [34m[1mGenerating Lisp code from rtabmap_ros/UserData.msg[0m
+[ 12%] [34m[1mGenerating Lisp code from rtabmap_ros/MapData.msg[0m
+[ 13%] [34m[1mGenerating Lisp code from rtabmap_ros/GlobalDescriptor.msg[0m
+[ 13%] [34m[1mGenerating Lisp code from rtabmap_ros/Point3f.msg[0m
+[ 14%] [34m[1mGenerating Lisp code from rtabmap_ros/OdomInfo.msg[0m
+[ 14%] [34m[1mGenerating Lisp code from rtabmap_ros/Info.msg[0m
+[ 14%] [34m[1mGenerating Lisp code from rtabmap_ros/Point2f.msg[0m
+[ 15%] [34m[1mGenerating Lisp code from rtabmap_ros/GPS.msg[0m
+[ 15%] [34m[1mGenerating Lisp code from rtabmap_ros/Path.msg[0m
+[ 16%] [34m[1mGenerating Lisp code from rtabmap_ros/Link.msg[0m
+[ 16%] [34m[1mGenerating Lisp code from rtabmap_ros/MapGraph.msg[0m
+[ 16%] [34m[1mGenerating Lisp code from rtabmap_ros/SetGoal.srv[0m
+[ 17%] [34m[1mGenerating Lisp code from rtabmap_ros/AddLink.srv[0m
+[ 17%] [34m[1mGenerating Lisp code from rtabmap_ros/GetMap.srv[0m
+[ 17%] [32m[1mLinking CXX shared library /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_costmap_plugins2.so[0m
+[ 18%] [34m[1mGenerating Lisp code from rtabmap_ros/PublishMap.srv[0m
+[ 18%] [34m[1mGenerating Lisp code from rtabmap_ros/GetNodeData.srv[0m
+[ 18%] [34m[1mGenerating Lisp code from rtabmap_ros/ResetPose.srv[0m
+[ 19%] [34m[1mGenerating Lisp code from rtabmap_ros/SetLabel.srv[0m
+[ 19%] [34m[1mGenerating Lisp code from rtabmap_ros/GetMap2.srv[0m
+[ 20%] [34m[1mGenerating Lisp code from rtabmap_ros/GetPlan.srv[0m
+[ 20%] Built target rtabmap_costmap_plugins2
+[ 20%] [34m[1mGenerating Lisp code from rtabmap_ros/ListLabels.srv[0m
+[ 20%] Built target rtabmap_ros_generate_messages_lisp
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_nodejs[0m
+[ 21%] [34m[1mGenerating Javascript code from rtabmap_ros/KeyPoint.msg[0m
+[ 21%] [34m[1mGenerating Javascript code from rtabmap_ros/RGBDImage.msg[0m
+[ 21%] [34m[1mGenerating Javascript code from rtabmap_ros/ScanDescriptor.msg[0m
+[ 22%] [34m[1mGenerating Javascript code from rtabmap_ros/Goal.msg[0m
+[ 22%] [34m[1mGenerating Javascript code from rtabmap_ros/NodeData.msg[0m
+[ 23%] [34m[1mGenerating Javascript code from rtabmap_ros/UserData.msg[0m
+[ 23%] [34m[1mGenerating Javascript code from rtabmap_ros/MapData.msg[0m
+[ 23%] [34m[1mGenerating Javascript code from rtabmap_ros/GlobalDescriptor.msg[0m
+[ 25%] [34m[1mGenerating Javascript code from rtabmap_ros/Point3f.msg[0m
+[ 25%] [34m[1mGenerating Javascript code from rtabmap_ros/OdomInfo.msg[0m
+[ 26%] [34m[1mGenerating Javascript code from rtabmap_ros/Info.msg[0m
+[ 26%] [34m[1mGenerating Javascript code from rtabmap_ros/Point2f.msg[0m
+[ 27%] [34m[1mGenerating Javascript code from rtabmap_ros/GPS.msg[0m
+[ 27%] [34m[1mGenerating Javascript code from rtabmap_ros/Path.msg[0m
+[ 27%] [34m[1mGenerating Javascript code from rtabmap_ros/Link.msg[0m
+[ 28%] [34m[1mGenerating Javascript code from rtabmap_ros/MapGraph.msg[0m
+[ 28%] [34m[1mGenerating Javascript code from rtabmap_ros/SetGoal.srv[0m
+[ 29%] [34m[1mGenerating Javascript code from rtabmap_ros/AddLink.srv[0m
+[ 29%] [34m[1mGenerating Javascript code from rtabmap_ros/GetMap.srv[0m
+[ 29%] [34m[1mGenerating Javascript code from rtabmap_ros/PublishMap.srv[0m
+[ 30%] [34m[1mGenerating Javascript code from rtabmap_ros/GetNodeData.srv[0m
+[ 30%] [34m[1mGenerating Javascript code from rtabmap_ros/ResetPose.srv[0m
+[ 31%] [34m[1mGenerating Javascript code from rtabmap_ros/SetLabel.srv[0m
+[ 31%] [34m[1mGenerating Javascript code from rtabmap_ros/GetMap2.srv[0m
+[ 32%] [34m[1mGenerating Javascript code from rtabmap_ros/GetPlan.srv[0m
+[ 32%] [34m[1mGenerating Javascript code from rtabmap_ros/ListLabels.srv[0m
+[ 32%] Built target rtabmap_ros_generate_messages_nodejs
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_eus[0m
+[ 33%] [34m[1mGenerating EusLisp code from rtabmap_ros/KeyPoint.msg[0m
+[ 33%] [34m[1mGenerating EusLisp code from rtabmap_ros/RGBDImage.msg[0m
+[ 33%] [34m[1mGenerating EusLisp code from rtabmap_ros/ScanDescriptor.msg[0m
+[ 34%] [34m[1mGenerating EusLisp code from rtabmap_ros/Goal.msg[0m
+[ 34%] [34m[1mGenerating EusLisp code from rtabmap_ros/NodeData.msg[0m
+[ 35%] [34m[1mGenerating EusLisp code from rtabmap_ros/UserData.msg[0m
+[ 35%] [34m[1mGenerating EusLisp code from rtabmap_ros/MapData.msg[0m
+[ 35%] [34m[1mGenerating EusLisp code from rtabmap_ros/GlobalDescriptor.msg[0m
+[ 36%] [34m[1mGenerating EusLisp code from rtabmap_ros/Point3f.msg[0m
+[ 36%] [34m[1mGenerating EusLisp code from rtabmap_ros/OdomInfo.msg[0m
+[ 37%] [34m[1mGenerating EusLisp code from rtabmap_ros/Info.msg[0m
+[ 37%] [34m[1mGenerating EusLisp code from rtabmap_ros/Point2f.msg[0m
+[ 38%] [34m[1mGenerating EusLisp code from rtabmap_ros/GPS.msg[0m
+[ 38%] [34m[1mGenerating EusLisp code from rtabmap_ros/Path.msg[0m
+[ 38%] [34m[1mGenerating EusLisp code from rtabmap_ros/Link.msg[0m
+[ 39%] [34m[1mGenerating EusLisp code from rtabmap_ros/MapGraph.msg[0m
+[ 39%] [34m[1mGenerating EusLisp code from rtabmap_ros/SetGoal.srv[0m
+[ 40%] [34m[1mGenerating EusLisp code from rtabmap_ros/AddLink.srv[0m
+[ 40%] [34m[1mGenerating EusLisp code from rtabmap_ros/GetMap.srv[0m
+[ 40%] [34m[1mGenerating EusLisp code from rtabmap_ros/PublishMap.srv[0m
+[ 41%] [34m[1mGenerating EusLisp code from rtabmap_ros/GetNodeData.srv[0m
+[ 41%] [34m[1mGenerating EusLisp code from rtabmap_ros/ResetPose.srv[0m
+[ 42%] [34m[1mGenerating EusLisp code from rtabmap_ros/SetLabel.srv[0m
+[ 42%] [34m[1mGenerating EusLisp code from rtabmap_ros/GetMap2.srv[0m
+[ 43%] [34m[1mGenerating EusLisp code from rtabmap_ros/GetPlan.srv[0m
+[ 43%] [34m[1mGenerating EusLisp code from rtabmap_ros/ListLabels.srv[0m
+[ 43%] [34m[1mGenerating EusLisp manifest code for rtabmap_ros[0m
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_py[0m
+[ 43%] [34m[1mGenerating Python from MSG rtabmap_ros/KeyPoint[0m
+[ 44%] [34m[1mGenerating Python from MSG rtabmap_ros/RGBDImage[0m
+[ 44%] [34m[1mGenerating Python from MSG rtabmap_ros/ScanDescriptor[0m
+[ 45%] [34m[1mGenerating Python from MSG rtabmap_ros/Goal[0m
+[ 45%] [34m[1mGenerating Python from MSG rtabmap_ros/NodeData[0m
+[ 45%] [34m[1mGenerating Python from MSG rtabmap_ros/UserData[0m
+[ 46%] [34m[1mGenerating Python from MSG rtabmap_ros/MapData[0m
+[ 46%] [34m[1mGenerating Python from MSG rtabmap_ros/GlobalDescriptor[0m
+[ 47%] [34m[1mGenerating Python from MSG rtabmap_ros/Point3f[0m
+[ 47%] [34m[1mGenerating Python from MSG rtabmap_ros/OdomInfo[0m
+[ 48%] [34m[1mGenerating Python from MSG rtabmap_ros/Info[0m
+[ 48%] [34m[1mGenerating Python from MSG rtabmap_ros/Point2f[0m
+[ 48%] Built target rtabmap_ros_generate_messages_eus
+[ 48%] [34m[1mGenerating Python from MSG rtabmap_ros/GPS[0m
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_cpp[0m
+[ 50%] [34m[1mGenerating C++ code from rtabmap_ros/KeyPoint.msg[0m
+[ 51%] [34m[1mGenerating Python from MSG rtabmap_ros/Path[0m
+[ 51%] [34m[1mGenerating Python from MSG rtabmap_ros/Link[0m
+[ 51%] [34m[1mGenerating C++ code from rtabmap_ros/RGBDImage.msg[0m
+[ 52%] [34m[1mGenerating Python from MSG rtabmap_ros/MapGraph[0m
+[ 53%] [34m[1mGenerating C++ code from rtabmap_ros/ScanDescriptor.msg[0m
+[ 53%] [34m[1mGenerating Python code from SRV rtabmap_ros/SetGoal[0m
+[ 53%] [34m[1mGenerating Python code from SRV rtabmap_ros/AddLink[0m
+[ 53%] [34m[1mGenerating C++ code from rtabmap_ros/Goal.msg[0m
+[ 54%] [34m[1mGenerating Python code from SRV rtabmap_ros/GetMap[0m
+[ 54%] [34m[1mGenerating C++ code from rtabmap_ros/NodeData.msg[0m
+[ 54%] [34m[1mGenerating Python code from SRV rtabmap_ros/PublishMap[0m
+[ 55%] [34m[1mGenerating Python code from SRV rtabmap_ros/GetNodeData[0m
+[ 56%] [34m[1mGenerating C++ code from rtabmap_ros/UserData.msg[0m
+[ 56%] [34m[1mGenerating Python code from SRV rtabmap_ros/ResetPose[0m
+[ 56%] [34m[1mGenerating C++ code from rtabmap_ros/MapData.msg[0m
+[ 56%] [34m[1mGenerating Python code from SRV rtabmap_ros/SetLabel[0m
+[ 57%] [34m[1mGenerating C++ code from rtabmap_ros/GlobalDescriptor.msg[0m
+[ 58%] [34m[1mGenerating Python code from SRV rtabmap_ros/GetMap2[0m
+[ 58%] [34m[1mGenerating C++ code from rtabmap_ros/Point3f.msg[0m
+[ 58%] [34m[1mGenerating Python code from SRV rtabmap_ros/GetPlan[0m
+[ 59%] [34m[1mGenerating Python code from SRV rtabmap_ros/ListLabels[0m
+[ 60%] [34m[1mGenerating C++ code from rtabmap_ros/OdomInfo.msg[0m
+[ 60%] [34m[1mGenerating C++ code from rtabmap_ros/Info.msg[0m
+[ 60%] [34m[1mGenerating Python msg __init__.py for rtabmap_ros[0m
+[ 61%] [34m[1mGenerating Python srv __init__.py for rtabmap_ros[0m
+[ 61%] [34m[1mGenerating C++ code from rtabmap_ros/Point2f.msg[0m
+[ 62%] [34m[1mGenerating C++ code from rtabmap_ros/GPS.msg[0m
+[ 62%] Built target rtabmap_ros_generate_messages_py
+[ 62%] [34m[1mGenerating C++ code from rtabmap_ros/Path.msg[0m
+[ 63%] [34m[1mGenerating C++ code from rtabmap_ros/Link.msg[0m
+[ 63%] [34m[1mGenerating C++ code from rtabmap_ros/MapGraph.msg[0m
+[ 63%] [34m[1mGenerating C++ code from rtabmap_ros/SetGoal.srv[0m
+[ 64%] [34m[1mGenerating C++ code from rtabmap_ros/AddLink.srv[0m
+[ 64%] [34m[1mGenerating C++ code from rtabmap_ros/GetMap.srv[0m
+[ 65%] [34m[1mGenerating C++ code from rtabmap_ros/PublishMap.srv[0m
+[ 65%] [34m[1mGenerating C++ code from rtabmap_ros/GetNodeData.srv[0m
+[ 66%] [34m[1mGenerating C++ code from rtabmap_ros/ResetPose.srv[0m
+[ 66%] [34m[1mGenerating C++ code from rtabmap_ros/SetLabel.srv[0m
+[ 66%] [34m[1mGenerating C++ code from rtabmap_ros/GetMap2.srv[0m
+[ 67%] [34m[1mGenerating C++ code from rtabmap_ros/GetPlan.srv[0m
+[ 67%] [34m[1mGenerating C++ code from rtabmap_ros/ListLabels.srv[0m
+[ 67%] Built target rtabmap_ros_generate_messages_cpp
+[35m[1mScanning dependencies of target rtabmap_ros[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rtabmap_ros.dir/src/MsgConversion.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_camera[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rtabmap_camera.dir/src/CameraNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages[0m
+[ 67%] Built target rtabmap_ros_generate_messages
+[ 68%] [32mBuilding CXX object CMakeFiles/rtabmap_ros.dir/src/MapsManager.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/camera[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rtabmap_ros.dir/src/OdometryROS.cpp.o[0m
+[ 69%] Built target rtabmap_camera
+[ 70%] [32mBuilding CXX object CMakeFiles/rtabmap_ros.dir/src/PluginInterface.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_ros.so[0m
+[ 70%] Built target rtabmap_ros
+[35m[1mScanning dependencies of target rtabmap_data_player[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/rtabmap_data_player.dir/src/DbPlayerNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_sync[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/data_player[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[ 73%] Built target rtabmap_data_player
+[ 73%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_save_objects_example[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_save_objects_example.dir/src/SaveObjectsExample.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/save_objects_example[0m
+[ 76%] Built target rtabmap_save_objects_example
+[ 76%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_wifi_signal_sub[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/rtabmap_wifi_signal_sub.dir/src/WifiSignalSubNode.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/wifi_signal_sub[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m
+[ 77%] Built target rtabmap_wifi_signal_sub
+[ 78%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CoreWrapper.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_map_assembler[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/rtabmap_map_assembler.dir/src/MapAssemblerNode.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/map_assembler[0m
+[35m[1mScanning dependencies of target rtabmap_map_optimizer[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/rtabmap_map_optimizer.dir/src/MapOptimizerNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_plugins[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgbd_odometry.cpp.o[0m
+[ 80%] Built target rtabmap_map_assembler
+[ 80%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/stereo_odometry.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/map_optimizer[0m
+[ 80%] Built target rtabmap_map_optimizer
+[ 80%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgbdicp_odometry.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/icp_odometry.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_external_loop_detectionexample[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/rtabmap_external_loop_detectionexample.dir/src/ExternalLoopDetectionExample.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/external_loop_detection_example[0m
+[35m[1mScanning dependencies of target rtabmap_wifi_signal_pub[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rtabmap_wifi_signal_pub.dir/src/WifiSignalPubNode.cpp.o[0m
+[ 83%] Built target rtabmap_external_loop_detectionexample
+[ 83%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/data_throttle.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/stereo_throttle.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/wifi_signal_pub[0m
+[ 84%] Built target rtabmap_wifi_signal_pub
+[35m[1mScanning dependencies of target rtabmap_stereo_camera[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_camera.dir/src/StereoCameraNode.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/data_odom_sync.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_odom_msg_to_tf[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_msg_to_tf.dir/src/OdomMsgToTFNode.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/point_cloud_xyzrgb.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/stereo_camera[0m
+[ 87%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/odom_msg_to_tf[0m
+[ 87%] [32m[1mLinking CXX shared library /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_sync.so[0m
+[ 87%] Built target rtabmap_stereo_camera
+[ 87%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o[0m
+[ 87%] Built target rtabmap_odom_msg_to_tf
+[ 87%] [34m[1mGenerating src/rviz/moc_OrbitOrientedViewController.cpp[0m
+[ 87%] [34m[1mGenerating src/rviz/moc_MapCloudDisplay.cpp[0m
+[ 87%] [34m[1mGenerating src/rviz/moc_MapGraphDisplay.cpp[0m
+[ 88%] [34m[1mGenerating src/rviz/moc_InfoDisplay.cpp[0m
+[35m[1mScanning dependencies of target rtabmap_rviz_plugins[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/MapCloudDisplay.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/MapGraphDisplay.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/disparity_to_depth.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/pointcloud_to_depthimage.cpp.o[0m
+[ 90%] Built target rtabmap_sync
+[ 90%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/obstacles_detection.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/InfoDisplay.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/moc_MapCloudDisplay.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/moc_MapGraphDisplay.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/obstacles_detection_old.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/point_cloud_aggregator.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/moc_InfoDisplay.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmapviz[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/rtabmapviz.dir/src/GuiNode.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/moc_OrbitOrientedViewController.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/rtabmapviz.dir/src/GuiWrapper.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/OrbitOrientedViewController.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared library /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_rviz_plugins.so[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/point_cloud_assembler.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/rtabmapviz.dir/src/PreferencesDialogROS.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/undistort_depth.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/rtabmapviz[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/imu_to_tf.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[ 98%] Built target rtabmap_rviz_plugins
+[ 98%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/stereo_sync.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgbd_relay.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_plugins.so[0m
+[100%] Built target rtabmap_plugins
+[100%] Built target rtabmapviz

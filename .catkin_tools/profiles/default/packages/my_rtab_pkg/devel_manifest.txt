@@ -1,0 +1,5 @@
+my_rtab_pkg
+/home/avg/catkin_ws/devel/.private/my_rtab_pkg/cmake.lock /home/avg/catkin_ws/devel/./cmake.lock
+/home/avg/catkin_ws/devel/.private/my_rtab_pkg/share/my_rtab_pkg/cmake/my_rtab_pkgConfig.cmake /home/avg/catkin_ws/devel/share/my_rtab_pkg/cmake/my_rtab_pkgConfig.cmake
+/home/avg/catkin_ws/devel/.private/my_rtab_pkg/share/my_rtab_pkg/cmake/my_rtab_pkgConfig-version.cmake /home/avg/catkin_ws/devel/share/my_rtab_pkg/cmake/my_rtab_pkgConfig-version.cmake
+/home/avg/catkin_ws/devel/.private/my_rtab_pkg/lib/pkgconfig/my_rtab_pkg.pc /home/avg/catkin_ws/devel/lib/pkgconfig/my_rtab_pkg.pc
