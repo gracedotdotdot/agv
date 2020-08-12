@@ -1,1 +1,16 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros/msg/__init__.py
+from ._GPS import *
+from ._GlobalDescriptor import *
+from ._Goal import *
+from ._Info import *
+from ._KeyPoint import *
+from ._Link import *
+from ._MapData import *
+from ._MapGraph import *
+from ._NodeData import *
+from ._OdomInfo import *
+from ._Path import *
+from ._Point2f import *
+from ._Point3f import *
+from ._RGBDImage import *
+from ._ScanDescriptor import *
+from ._UserData import *

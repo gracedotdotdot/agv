@@ -1,1 +1,12 @@
-/home/avg/catkin_ws/devel/.private/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_NavigatorState.lisp
+(cl:in-package baxter_core_msgs-msg)
+(cl:export '(BUTTON_NAMES-VAL
+          BUTTON_NAMES
+          BUTTONS-VAL
+          BUTTONS
+          WHEEL-VAL
+          WHEEL
+          LIGHT_NAMES-VAL
+          LIGHT_NAMES
+          LIGHTS-VAL
+          LIGHTS
+))

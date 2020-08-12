@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/srv/_package_ListLabels.lisp
+(cl:in-package rtabmap_ros-srv)
+(cl:export '(IDS-VAL
+          IDS
+          LABELS-VAL
+          LABELS
+))

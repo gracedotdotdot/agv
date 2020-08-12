@@ -1,1 +1,2 @@
-/home/avg/catkin_ws/devel/.private/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs-msg-extras.cmake
+set(turtlebot3_msgs_MESSAGE_FILES "/home/avg/catkin_ws/src/turtlebot3_msgs/msg/SensorState.msg;/home/avg/catkin_ws/src/turtlebot3_msgs/msg/VersionInfo.msg;/home/avg/catkin_ws/src/turtlebot3_msgs/msg/Sound.msg")
+set(turtlebot3_msgs_SERVICE_FILES "")

@@ -1,1 +1,4 @@
-/home/avg/catkin_ws/devel/.private/turtlebot3_example/share/common-lisp/ros/turtlebot3_example/msg/_package_Turtlebot3Result.lisp
+(cl:in-package turtlebot3_example-msg)
+(cl:export '(RESULT-VAL
+          RESULT
+))

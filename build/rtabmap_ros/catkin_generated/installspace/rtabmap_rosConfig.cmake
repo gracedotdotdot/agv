@@ -68,7 +68,7 @@ set(rtabmap_ros_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(rtabmap_ros_SOURCE_PREFIX /home/avg/catkin_ws/src/rtabmap_ros)
-  set(rtabmap_ros_DEVEL_PREFIX /home/avg/catkin_ws/devel/.private/rtabmap_ros)
+  set(rtabmap_ros_DEVEL_PREFIX /home/avg/catkin_ws/devel)
   set(rtabmap_ros_INSTALL_PREFIX "")
   set(rtabmap_ros_PREFIX ${rtabmap_ros_DEVEL_PREFIX})
 else()

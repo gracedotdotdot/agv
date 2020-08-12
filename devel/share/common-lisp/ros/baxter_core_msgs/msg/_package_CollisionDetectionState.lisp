@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_CollisionDetectionState.lisp
+(cl:in-package baxter_core_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          COLLISION_STATE-VAL
+          COLLISION_STATE
+))

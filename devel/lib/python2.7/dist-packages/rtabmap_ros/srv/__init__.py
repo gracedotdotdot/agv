@@ -1,1 +1,10 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros/srv/__init__.py
+from ._AddLink import *
+from ._GetMap import *
+from ._GetMap2 import *
+from ._GetNodeData import *
+from ._GetPlan import *
+from ._ListLabels import *
+from ._PublishMap import *
+from ._ResetPose import *
+from ._SetGoal import *
+from ._SetLabel import *

@@ -1,1 +1,14 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/msg/_package_GPS.lisp
+(cl:in-package rtabmap_ros-msg)
+(cl:export '(STAMP-VAL
+          STAMP
+          LONGITUDE-VAL
+          LONGITUDE
+          LATITUDE-VAL
+          LATITUDE
+          ALTITUDE-VAL
+          ALTITUDE
+          ERROR-VAL
+          ERROR
+          BEARING-VAL
+          BEARING
+))

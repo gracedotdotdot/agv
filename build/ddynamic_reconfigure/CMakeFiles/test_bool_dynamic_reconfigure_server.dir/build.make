@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avg/catkin_ws/src/ddynamic_reconfigure
+CMAKE_SOURCE_DIR = /home/avg/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avg/catkin_ws/build/ddynamic_reconfigure
+CMAKE_BINARY_DIR = /home/avg/catkin_ws/build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/test_bool_dynamic_reconfigure_server.dir/depend.make
+include ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/test_bool_dynamic_reconfigure_server.dir/progress.make
+include ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/test_bool_dynamic_reconfigure_server.dir/flags.make
+include ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/flags.make
 
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o: CMakeFiles/test_bool_dynamic_reconfigure_server.dir/flags.make
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o: /home/avg/catkin_ws/src/ddynamic_reconfigure/test/test_bool_dynamic_reconfigure_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avg/catkin_ws/build/ddynamic_reconfigure/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o -c /home/avg/catkin_ws/src/ddynamic_reconfigure/test/test_bool_dynamic_reconfigure_server.cpp
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o: ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/flags.make
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o: /home/avg/catkin_ws/src/ddynamic_reconfigure/test/test_bool_dynamic_reconfigure_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avg/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o"
+	cd /home/avg/catkin_ws/build/ddynamic_reconfigure && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o -c /home/avg/catkin_ws/src/ddynamic_reconfigure/test/test_bool_dynamic_reconfigure_server.cpp
 
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.i: cmake_force
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/avg/catkin_ws/src/ddynamic_reconfigure/test/test_bool_dynamic_reconfigure_server.cpp > CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.i
+	cd /home/avg/catkin_ws/build/ddynamic_reconfigure && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/avg/catkin_ws/src/ddynamic_reconfigure/test/test_bool_dynamic_reconfigure_server.cpp > CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.i
 
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.s: cmake_force
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avg/catkin_ws/src/ddynamic_reconfigure/test/test_bool_dynamic_reconfigure_server.cpp -o CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.s
+	cd /home/avg/catkin_ws/build/ddynamic_reconfigure && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avg/catkin_ws/src/ddynamic_reconfigure/test/test_bool_dynamic_reconfigure_server.cpp -o CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.s
 
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.requires:
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.requires:
 
-.PHONY : CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.requires
+.PHONY : ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.requires
 
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.provides: CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.provides.build
-.PHONY : CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.provides
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.provides: ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.requires
+	$(MAKE) -f ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.provides.build
+.PHONY : ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.provides
 
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.provides.build: CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.provides.build: ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o
 
 
 # Object files for target test_bool_dynamic_reconfigure_server
@@ -88,46 +88,46 @@ test_bool_dynamic_reconfigure_server_OBJECTS = \
 # External object files for target test_bool_dynamic_reconfigure_server
 test_bool_dynamic_reconfigure_server_EXTERNAL_OBJECTS =
 
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/libddynamic_reconfigure.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libroscpp.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/librosconsole.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/librostime.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libcpp_common.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: CMakeFiles/test_bool_dynamic_reconfigure_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avg/catkin_ws/build/ddynamic_reconfigure/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_bool_dynamic_reconfigure_server.dir/link.txt --verbose=$(VERBOSE)
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libroscpp.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/librosconsole.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/librostime.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /opt/ros/melodic/lib/libcpp_common.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server: ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avg/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server"
+	cd /home/avg/catkin_ws/build/ddynamic_reconfigure && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_bool_dynamic_reconfigure_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build: /home/avg/catkin_ws/devel/.private/ddynamic_reconfigure/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build: /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/test_bool_dynamic_reconfigure_server
 
-.PHONY : CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build
+.PHONY : ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build
 
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/requires: CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.requires
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/requires: ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o.requires
 
-.PHONY : CMakeFiles/test_bool_dynamic_reconfigure_server.dir/requires
+.PHONY : ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/requires
 
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/test_bool_dynamic_reconfigure_server.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/test_bool_dynamic_reconfigure_server.dir/clean
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/clean:
+	cd /home/avg/catkin_ws/build/ddynamic_reconfigure && $(CMAKE_COMMAND) -P CMakeFiles/test_bool_dynamic_reconfigure_server.dir/cmake_clean.cmake
+.PHONY : ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/clean
 
-CMakeFiles/test_bool_dynamic_reconfigure_server.dir/depend:
-	cd /home/avg/catkin_ws/build/ddynamic_reconfigure && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avg/catkin_ws/src/ddynamic_reconfigure /home/avg/catkin_ws/src/ddynamic_reconfigure /home/avg/catkin_ws/build/ddynamic_reconfigure /home/avg/catkin_ws/build/ddynamic_reconfigure /home/avg/catkin_ws/build/ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/test_bool_dynamic_reconfigure_server.dir/depend
+ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/depend:
+	cd /home/avg/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avg/catkin_ws/src /home/avg/catkin_ws/src/ddynamic_reconfigure /home/avg/catkin_ws/build /home/avg/catkin_ws/build/ddynamic_reconfigure /home/avg/catkin_ws/build/ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/depend
 

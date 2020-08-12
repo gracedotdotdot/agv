@@ -1,1 +1,10 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/msg/_package_ScanDescriptor.lisp
+(cl:in-package rtabmap_ros-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          SCAN-VAL
+          SCAN
+          SCAN_CLOUD-VAL
+          SCAN_CLOUD
+          GLOBAL_DESCRIPTOR-VAL
+          GLOBAL_DESCRIPTOR
+))

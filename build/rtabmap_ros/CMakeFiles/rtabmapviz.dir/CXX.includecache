@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/GPS.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/GPS.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/GetMap.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/GetMap.h
 ros/service_traits.h
 -
 rtabmap_ros/GetMapRequest.h
@@ -30,7 +30,7 @@ rtabmap_ros/GetMapRequest.h
 rtabmap_ros/GetMapResponse.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/GetMapRequest.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/GetMapRequest.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/GetMapResponse.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/GetMapResponse.h
 string
 -
 vector
@@ -64,7 +64,7 @@ ros/message_operations.h
 rtabmap_ros/MapData.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/GlobalDescriptor.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/GlobalDescriptor.h
 string
 -
 vector
@@ -82,7 +82,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/Goal.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/Goal.h
 string
 -
 vector
@@ -100,7 +100,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/Info.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/Info.h
 string
 -
 vector
@@ -120,7 +120,7 @@ std_msgs/Header.h
 geometry_msgs/Transform.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/KeyPoint.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/KeyPoint.h
 string
 -
 vector
@@ -138,7 +138,7 @@ ros/message_operations.h
 rtabmap_ros/Point2f.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/Link.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/Link.h
 string
 -
 vector
@@ -156,7 +156,7 @@ ros/message_operations.h
 geometry_msgs/Transform.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/MapData.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/MapData.h
 string
 -
 vector
@@ -178,7 +178,7 @@ rtabmap_ros/MapGraph.h
 rtabmap_ros/NodeData.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/MapGraph.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/MapGraph.h
 string
 -
 vector
@@ -202,7 +202,7 @@ geometry_msgs/Pose.h
 rtabmap_ros/Link.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/NodeData.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/NodeData.h
 string
 -
 vector
@@ -236,7 +236,7 @@ rtabmap_ros/Point3f.h
 rtabmap_ros/GlobalDescriptor.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/OdomInfo.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/OdomInfo.h
 string
 -
 vector
@@ -270,7 +270,7 @@ rtabmap_ros/Point2f.h
 rtabmap_ros/Point2f.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/Point2f.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/Point2f.h
 string
 -
 vector
@@ -286,7 +286,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/Point3f.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/Point3f.h
 string
 -
 vector
@@ -302,7 +302,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/RGBDImage.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/RGBDImage.h
 string
 -
 vector
@@ -338,7 +338,7 @@ rtabmap_ros/Point3f.h
 rtabmap_ros/GlobalDescriptor.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/ScanDescriptor.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/ScanDescriptor.h
 string
 -
 vector
@@ -362,7 +362,7 @@ sensor_msgs/PointCloud2.h
 rtabmap_ros/GlobalDescriptor.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/SetGoal.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/SetGoal.h
 ros/service_traits.h
 -
 rtabmap_ros/SetGoalRequest.h
@@ -370,7 +370,7 @@ rtabmap_ros/SetGoalRequest.h
 rtabmap_ros/SetGoalResponse.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/SetGoalRequest.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/SetGoalRequest.h
 string
 -
 vector
@@ -386,7 +386,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/SetGoalResponse.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/SetGoalResponse.h
 string
 -
 vector
@@ -404,7 +404,7 @@ ros/message_operations.h
 geometry_msgs/Pose.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/SetLabel.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/SetLabel.h
 ros/service_traits.h
 -
 rtabmap_ros/SetLabelRequest.h
@@ -412,7 +412,7 @@ rtabmap_ros/SetLabelRequest.h
 rtabmap_ros/SetLabelResponse.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/SetLabelRequest.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/SetLabelRequest.h
 string
 -
 vector
@@ -428,7 +428,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/SetLabelResponse.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/SetLabelResponse.h
 string
 -
 vector
@@ -444,7 +444,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/UserData.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/UserData.h
 string
 -
 vector

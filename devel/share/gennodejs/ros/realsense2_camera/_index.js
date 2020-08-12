@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/realsense2_camera/share/gennodejs/ros/realsense2_camera/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+};

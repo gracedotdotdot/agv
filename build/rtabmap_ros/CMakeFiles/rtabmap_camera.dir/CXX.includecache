@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h
+/home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits

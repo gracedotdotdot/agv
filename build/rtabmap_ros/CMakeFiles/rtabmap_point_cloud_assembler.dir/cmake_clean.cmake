@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rtabmap_point_cloud_assembler.dir/src/PointCloudAssemblerNode.cpp.o"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/point_cloud_assembler.pdb"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/point_cloud_assembler"
+  "/home/avg/catkin_ws/devel/lib/rtabmap_ros/point_cloud_assembler.pdb"
+  "/home/avg/catkin_ws/devel/lib/rtabmap_ros/point_cloud_assembler"
 )
 
 # Per-language clean rules from dependency scanning.

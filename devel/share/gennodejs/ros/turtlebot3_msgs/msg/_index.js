@@ -1,1 +1,12 @@
-/home/avg/catkin_ws/devel/.private/turtlebot3_msgs/share/gennodejs/ros/turtlebot3_msgs/msg/_index.js
+
+"use strict";
+
+let VersionInfo = require('./VersionInfo.js');
+let Sound = require('./Sound.js');
+let SensorState = require('./SensorState.js');
+
+module.exports = {
+  VersionInfo: VersionInfo,
+  Sound: Sound,
+  SensorState: SensorState,
+};

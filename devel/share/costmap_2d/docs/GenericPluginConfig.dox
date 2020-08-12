@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/costmap_2d/share/costmap_2d/docs/GenericPluginConfig.dox
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~enabled" : \b [bool] Whether to apply this plugin or not min: False, default: True, max: True
+

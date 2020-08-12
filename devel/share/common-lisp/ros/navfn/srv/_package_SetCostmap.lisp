@@ -1,1 +1,8 @@
-/home/avg/catkin_ws/devel/.private/navfn/share/common-lisp/ros/navfn/srv/_package_SetCostmap.lisp
+(cl:in-package navfn-srv)
+(cl:export '(COSTS-VAL
+          COSTS
+          HEIGHT-VAL
+          HEIGHT
+          WIDTH-VAL
+          WIDTH
+))

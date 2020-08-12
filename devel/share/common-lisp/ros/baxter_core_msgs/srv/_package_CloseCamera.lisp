@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/_package_CloseCamera.lisp
+(cl:in-package baxter_core_msgs-srv)
+(cl:export '(NAME-VAL
+          NAME
+          ERR-VAL
+          ERR
+))

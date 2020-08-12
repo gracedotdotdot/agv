@@ -1,1 +1,15 @@
-/home/avg/catkin_ws/devel/.private/navfn/share/common-lisp/ros/navfn/srv/_package.lisp
+(cl:defpackage navfn-srv
+  (:use )
+  (:export
+   "MAKENAVPLAN"
+   "<MAKENAVPLAN-REQUEST>"
+   "MAKENAVPLAN-REQUEST"
+   "<MAKENAVPLAN-RESPONSE>"
+   "MAKENAVPLAN-RESPONSE"
+   "SETCOSTMAP"
+   "<SETCOSTMAP-REQUEST>"
+   "SETCOSTMAP-REQUEST"
+   "<SETCOSTMAP-RESPONSE>"
+   "SETCOSTMAP-RESPONSE"
+  ))
+

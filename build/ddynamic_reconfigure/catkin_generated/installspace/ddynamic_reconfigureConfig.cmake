@@ -68,7 +68,7 @@ set(ddynamic_reconfigure_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(ddynamic_reconfigure_SOURCE_PREFIX /home/avg/catkin_ws/src/ddynamic_reconfigure)
-  set(ddynamic_reconfigure_DEVEL_PREFIX /home/avg/catkin_ws/devel/.private/ddynamic_reconfigure)
+  set(ddynamic_reconfigure_DEVEL_PREFIX /home/avg/catkin_ws/devel)
   set(ddynamic_reconfigure_INSTALL_PREFIX "")
   set(ddynamic_reconfigure_PREFIX ${ddynamic_reconfigure_DEVEL_PREFIX})
 else()

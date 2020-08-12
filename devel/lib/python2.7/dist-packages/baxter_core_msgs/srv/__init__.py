@@ -1,1 +1,4 @@
-/home/avg/catkin_ws/devel/.private/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/__init__.py
+from ._CloseCamera import *
+from ._ListCameras import *
+from ._OpenCamera import *
+from ._SolvePositionIK import *

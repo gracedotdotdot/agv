@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/base_local_planner/share/common-lisp/ros/base_local_planner/msg/_package_Position2DInt.lisp
+(cl:in-package base_local_planner-msg)
+(cl:export '(X-VAL
+          X
+          Y-VAL
+          Y
+))

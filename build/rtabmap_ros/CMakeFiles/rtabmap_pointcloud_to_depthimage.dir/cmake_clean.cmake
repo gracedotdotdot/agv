@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rtabmap_pointcloud_to_depthimage.dir/src/PointCloudToDepthImageNode.cpp.o"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/pointcloud_to_depthimage.pdb"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/rtabmap_ros/pointcloud_to_depthimage"
+  "/home/avg/catkin_ws/devel/lib/rtabmap_ros/pointcloud_to_depthimage.pdb"
+  "/home/avg/catkin_ws/devel/lib/rtabmap_ros/pointcloud_to_depthimage"
 )
 
 # Per-language clean rules from dependency scanning.

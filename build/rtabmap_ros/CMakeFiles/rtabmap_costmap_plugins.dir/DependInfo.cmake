@@ -40,7 +40,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/include"
+  "/home/avg/catkin_ws/devel/include"
   "/usr/include/vtk-6.3"
   "/usr/include/freetype2"
   "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"
@@ -66,10 +66,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/melodic/include/apriltag"
   "/usr/include/OGRE"
   "/usr/include/OGRE/Overlay"
+  "/home/avg/catkin_ws/src/navigation/costmap_2d/include"
+  "/home/avg/catkin_ws/src/navigation/voxel_grid/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/avg/catkin_ws/build/navigation/costmap_2d/CMakeFiles/layers.dir/DependInfo.cmake"
+  "/home/avg/catkin_ws/build/navigation/costmap_2d/CMakeFiles/costmap_2d.dir/DependInfo.cmake"
+  "/home/avg/catkin_ws/build/navigation/voxel_grid/CMakeFiles/voxel_grid.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

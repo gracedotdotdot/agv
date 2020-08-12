@@ -1,1 +1,8 @@
-/home/avg/catkin_ws/devel/.private/baxter_description/lib/pkgconfig/baxter_description.pc
+prefix=/home/avg/catkin_ws/devel
+
+Name: baxter_description
+Description: Description of baxter_description
+Version: 1.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

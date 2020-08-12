@@ -1,5 +1,5 @@
--I/home/avg/catkin_ws/devel/.private/rtabmap_ros/include
--I/home/avg/catkin_ws/devel/.private/rtabmap_ros/include
+-I/home/avg/catkin_ws/devel/include
+-I/home/avg/catkin_ws/devel/include
 -I/usr/include/vtk-6.3
 -I/usr/include/freetype2
 -I/usr/include
@@ -73,6 +73,7 @@
 -I/usr/include/OGRE
 -I/usr/include
 -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-DROS_BUILD_SHARED_LIBS=1
 -DROS_BUILD_SHARED_LIBS=1
 -DROS_PACKAGE_NAME="rtabmap_ros"
 -DROSCONSOLE_BACKEND_LOG4CXX

@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_AnalogIOStates.lisp
+(cl:in-package baxter_core_msgs-msg)
+(cl:export '(NAMES-VAL
+          NAMES
+          STATES-VAL
+          STATES
+))

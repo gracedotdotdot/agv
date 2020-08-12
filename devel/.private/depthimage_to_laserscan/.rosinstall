@@ -1,2 +1,0 @@
-- setup-file:
-    local-name: /home/avg/catkin_ws/devel/.private/depthimage_to_laserscan/setup.sh

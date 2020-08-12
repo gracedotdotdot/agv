@@ -1,1 +1,10 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/msg/_package_Goal.lisp
+(cl:in-package rtabmap_ros-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          NODE_ID-VAL
+          NODE_ID
+          NODE_LABEL-VAL
+          NODE_LABEL
+          FRAME_ID-VAL
+          FRAME_ID
+))

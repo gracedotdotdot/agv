@@ -1,1 +1,10 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/msg/_package_GlobalDescriptor.lisp
+(cl:in-package rtabmap_ros-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          TYPE-VAL
+          TYPE
+          INFO-VAL
+          INFO
+          DATA-VAL
+          DATA
+))

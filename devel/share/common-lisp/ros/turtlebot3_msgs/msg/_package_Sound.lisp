@@ -1,1 +1,4 @@
-/home/avg/catkin_ws/devel/.private/turtlebot3_msgs/share/common-lisp/ros/turtlebot3_msgs/msg/_package_Sound.lisp
+(cl:in-package turtlebot3_msgs-msg)
+(cl:export '(VALUE-VAL
+          VALUE
+))

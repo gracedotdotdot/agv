@@ -1,1 +1,7 @@
-/home/avg/catkin_ws/devel/.private/image_proc/share/image_proc/docs/RectifyConfig-usage.dox
+\subsubsection usage Usage
+\verbatim
+<node name="image_proc" pkg="image_proc" type="image_proc">
+  <param name="interpolation" type="int" value="1" />
+</node>
+\endverbatim
+

@@ -1,0 +1,5 @@
+kubot_description
+/home/avg/catkin_ws/devel/.private/kubot_description/cmake.lock /home/avg/catkin_ws/devel/./cmake.lock
+/home/avg/catkin_ws/devel/.private/kubot_description/share/kubot_description/cmake/kubot_descriptionConfig.cmake /home/avg/catkin_ws/devel/share/kubot_description/cmake/kubot_descriptionConfig.cmake
+/home/avg/catkin_ws/devel/.private/kubot_description/share/kubot_description/cmake/kubot_descriptionConfig-version.cmake /home/avg/catkin_ws/devel/share/kubot_description/cmake/kubot_descriptionConfig-version.cmake
+/home/avg/catkin_ws/devel/.private/kubot_description/lib/pkgconfig/kubot_description.pc /home/avg/catkin_ws/devel/lib/pkgconfig/kubot_description.pc

@@ -1,1 +1,8 @@
-/home/avg/catkin_ws/devel/.private/map_server/lib/pkgconfig/map_server.pc
+prefix=/home/avg/catkin_ws/devel
+
+Name: map_server
+Description: Description of map_server
+Version: 1.16.6
+Cflags: -I/home/avg/catkin_ws/src/navigation/map_server/include
+Libs: -L${prefix}/lib -lmap_server_image_loader
+Requires: roscpp nav_msgs tf2

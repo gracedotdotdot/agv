@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/base_local_planner/share/gennodejs/ros/base_local_planner/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+};

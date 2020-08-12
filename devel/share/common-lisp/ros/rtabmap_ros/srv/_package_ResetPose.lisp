@@ -1,1 +1,14 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/srv/_package_ResetPose.lisp
+(cl:in-package rtabmap_ros-srv)
+(cl:export '(X-VAL
+          X
+          Y-VAL
+          Y
+          Z-VAL
+          Z
+          ROLL-VAL
+          ROLL
+          PITCH-VAL
+          PITCH
+          YAW-VAL
+          YAW
+))

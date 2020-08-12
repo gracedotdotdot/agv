@@ -11,8 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/moc_InfoDisplay.cpp.o"
   "CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/moc_OrbitOrientedViewController.cpp.o"
   "CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/OrbitOrientedViewController.cpp.o"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_rviz_plugins.pdb"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_rviz_plugins.so"
+  "/home/avg/catkin_ws/devel/lib/librtabmap_rviz_plugins.pdb"
+  "/home/avg/catkin_ws/devel/lib/librtabmap_rviz_plugins.so"
 )
 
 # Per-language clean rules from dependency scanning.

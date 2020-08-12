@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DDepthImageToLaserScanNodelet_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"depthimage_to_laserscan\"
 
-CXX_INCLUDES = -I/home/avg/catkin_ws/devel/.private/depthimage_to_laserscan/include -I/home/avg/catkin_ws/src/depthimage_to_laserscan/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv 
+CXX_INCLUDES = -I/home/avg/catkin_ws/devel/include -I/home/avg/catkin_ws/src/depthimage_to_laserscan/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv 
 

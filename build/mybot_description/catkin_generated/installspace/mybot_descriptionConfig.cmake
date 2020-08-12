@@ -68,7 +68,7 @@ set(mybot_description_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(mybot_description_SOURCE_PREFIX /home/avg/catkin_ws/src/mybot_description)
-  set(mybot_description_DEVEL_PREFIX /home/avg/catkin_ws/devel/.private/mybot_description)
+  set(mybot_description_DEVEL_PREFIX /home/avg/catkin_ws/devel)
   set(mybot_description_INSTALL_PREFIX "")
   set(mybot_description_PREFIX ${mybot_description_DEVEL_PREFIX})
 else()

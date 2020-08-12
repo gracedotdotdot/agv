@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o"
   "CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o"
   "CMakeFiles/rtabmap_sync.dir/src/CoreWrapper.cpp.o"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_sync.pdb"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_sync.so"
+  "/home/avg/catkin_ws/devel/lib/librtabmap_sync.pdb"
+  "/home/avg/catkin_ws/devel/lib/librtabmap_sync.so"
 )
 
 # Per-language clean rules from dependency scanning.

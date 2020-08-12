@@ -1,1 +1,8 @@
-/home/avg/catkin_ws/devel/.private/rethink_ee_description/lib/pkgconfig/rethink_ee_description.pc
+prefix=/home/avg/catkin_ws/devel
+
+Name: rethink_ee_description
+Description: Description of rethink_ee_description
+Version: 1.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,1 +1,16 @@
-/home/avg/catkin_ws/devel/.private/costmap_2d/share/common-lisp/ros/costmap_2d/msg/_package_VoxelGrid.lisp
+(cl:in-package costmap_2d-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          DATA-VAL
+          DATA
+          ORIGIN-VAL
+          ORIGIN
+          RESOLUTIONS-VAL
+          RESOLUTIONS
+          SIZE_X-VAL
+          SIZE_X
+          SIZE_Y-VAL
+          SIZE_Y
+          SIZE_Z-VAL
+          SIZE_Z
+))

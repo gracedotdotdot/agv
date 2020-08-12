@@ -1,1 +1,8 @@
-/home/avg/catkin_ws/devel/.private/base_local_planner/share/gennodejs/ros/base_local_planner/msg/_index.js
+
+"use strict";
+
+let Position2DInt = require('./Position2DInt.js');
+
+module.exports = {
+  Position2DInt: Position2DInt,
+};

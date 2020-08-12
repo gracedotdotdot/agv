@@ -1,1 +1,37 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/msg/_package.lisp
+(cl:defpackage rtabmap_ros-msg
+  (:use )
+  (:export
+   "<GPS>"
+   "GPS"
+   "<GLOBALDESCRIPTOR>"
+   "GLOBALDESCRIPTOR"
+   "<GOAL>"
+   "GOAL"
+   "<INFO>"
+   "INFO"
+   "<KEYPOINT>"
+   "KEYPOINT"
+   "<LINK>"
+   "LINK"
+   "<MAPDATA>"
+   "MAPDATA"
+   "<MAPGRAPH>"
+   "MAPGRAPH"
+   "<NODEDATA>"
+   "NODEDATA"
+   "<ODOMINFO>"
+   "ODOMINFO"
+   "<PATH>"
+   "PATH"
+   "<POINT2F>"
+   "POINT2F"
+   "<POINT3F>"
+   "POINT3F"
+   "<RGBDIMAGE>"
+   "RGBDIMAGE"
+   "<SCANDESCRIPTOR>"
+   "SCANDESCRIPTOR"
+   "<USERDATA>"
+   "USERDATA"
+  ))
+

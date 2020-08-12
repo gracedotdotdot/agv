@@ -1,1 +1,7 @@
-/home/avg/catkin_ws/devel/.private/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+  srv: require('./srv/_index.js')
+};

@@ -19,8 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgbd_sync.cpp.o"
   "CMakeFiles/rtabmap_plugins.dir/src/nodelets/stereo_sync.cpp.o"
   "CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgbd_relay.cpp.o"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_plugins.pdb"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_plugins.so"
+  "/home/avg/catkin_ws/devel/lib/librtabmap_plugins.pdb"
+  "/home/avg/catkin_ws/devel/lib/librtabmap_plugins.so"
 )
 
 # Per-language clean rules from dependency scanning.

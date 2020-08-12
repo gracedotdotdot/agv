@@ -1,1 +1,2 @@
-/home/avg/catkin_ws/devel/.private/realsense2_camera/share/realsense2_camera/cmake/realsense2_camera-msg-extras.cmake
+set(realsense2_camera_MESSAGE_FILES "/home/avg/catkin_ws/src/realsense-ros/realsense2_camera/msg/IMUInfo.msg;/home/avg/catkin_ws/src/realsense-ros/realsense2_camera/msg/Extrinsics.msg")
+set(realsense2_camera_SERVICE_FILES "")

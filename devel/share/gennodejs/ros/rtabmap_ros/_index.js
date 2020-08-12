@@ -1,1 +1,7 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/gennodejs/ros/rtabmap_ros/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+  srv: require('./srv/_index.js')
+};

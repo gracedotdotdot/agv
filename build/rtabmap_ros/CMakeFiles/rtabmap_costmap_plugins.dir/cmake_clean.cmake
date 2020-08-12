@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rtabmap_costmap_plugins.dir/src/costmap_2d/static_layer.cpp.o"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_costmap_plugins.pdb"
-  "/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/librtabmap_costmap_plugins.so"
+  "/home/avg/catkin_ws/devel/lib/librtabmap_costmap_plugins.pdb"
+  "/home/avg/catkin_ws/devel/lib/librtabmap_costmap_plugins.so"
 )
 
 # Per-language clean rules from dependency scanning.

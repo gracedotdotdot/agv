@@ -1,1 +1,8 @@
-/home/avg/catkin_ws/devel/.private/camera_calibration/lib/pkgconfig/camera_calibration.pc
+prefix=/home/avg/catkin_ws/devel
+
+Name: camera_calibration
+Description: Description of camera_calibration
+Version: 1.15.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

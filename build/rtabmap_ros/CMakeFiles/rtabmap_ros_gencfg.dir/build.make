@@ -43,58 +43,58 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avg/catkin_ws/src/rtabmap_ros
+CMAKE_SOURCE_DIR = /home/avg/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avg/catkin_ws/build/rtabmap_ros
+CMAKE_BINARY_DIR = /home/avg/catkin_ws/build
 
 # Utility rule file for rtabmap_ros_gencfg.
 
 # Include the progress variables for this target.
-include CMakeFiles/rtabmap_ros_gencfg.dir/progress.make
+include rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/progress.make
 
-CMakeFiles/rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h
-CMakeFiles/rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py
+rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h
+rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py
 
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h: /home/avg/catkin_ws/src/rtabmap_ros/cfg/Camera.cfg
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h: /opt/ros/melodic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h: /opt/ros/melodic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avg/catkin_ws/build/rtabmap_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Camera.cfg: /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py"
-	catkin_generated/env_cached.sh /home/avg/catkin_ws/build/rtabmap_ros/setup_custom_pythonpath.sh /home/avg/catkin_ws/src/rtabmap_ros/cfg/Camera.cfg /opt/ros/melodic/share/dynamic_reconfigure/cmake/.. /home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros
+/home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h: /home/avg/catkin_ws/src/rtabmap_ros/cfg/Camera.cfg
+/home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h: /opt/ros/melodic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h: /opt/ros/melodic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avg/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Camera.cfg: /home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h /home/avg/catkin_ws/devel/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py"
+	cd /home/avg/catkin_ws/build/rtabmap_ros && ../catkin_generated/env_cached.sh /home/avg/catkin_ws/build/rtabmap_ros/setup_custom_pythonpath.sh /home/avg/catkin_ws/src/rtabmap_ros/cfg/Camera.cfg /opt/ros/melodic/share/dynamic_reconfigure/cmake/.. /home/avg/catkin_ws/devel/share/rtabmap_ros /home/avg/catkin_ws/devel/include/rtabmap_ros /home/avg/catkin_ws/devel/lib/python2.7/dist-packages/rtabmap_ros
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/docs/CameraConfig.dox: /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/docs/CameraConfig.dox
+/home/avg/catkin_ws/devel/share/rtabmap_ros/docs/CameraConfig.dox: /home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/avg/catkin_ws/devel/share/rtabmap_ros/docs/CameraConfig.dox
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/docs/CameraConfig-usage.dox: /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/docs/CameraConfig-usage.dox
+/home/avg/catkin_ws/devel/share/rtabmap_ros/docs/CameraConfig-usage.dox: /home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/avg/catkin_ws/devel/share/rtabmap_ros/docs/CameraConfig-usage.dox
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py: /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py
+/home/avg/catkin_ws/devel/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py: /home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/avg/catkin_ws/devel/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py
 
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/docs/CameraConfig.wikidoc: /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/docs/CameraConfig.wikidoc
+/home/avg/catkin_ws/devel/share/rtabmap_ros/docs/CameraConfig.wikidoc: /home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/avg/catkin_ws/devel/share/rtabmap_ros/docs/CameraConfig.wikidoc
 
-rtabmap_ros_gencfg: CMakeFiles/rtabmap_ros_gencfg
-rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h
-rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/docs/CameraConfig.dox
-rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/docs/CameraConfig-usage.dox
-rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py
-rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/docs/CameraConfig.wikidoc
-rtabmap_ros_gencfg: CMakeFiles/rtabmap_ros_gencfg.dir/build.make
+rtabmap_ros_gencfg: rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg
+rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/include/rtabmap_ros/CameraConfig.h
+rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/share/rtabmap_ros/docs/CameraConfig.dox
+rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/share/rtabmap_ros/docs/CameraConfig-usage.dox
+rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py
+rtabmap_ros_gencfg: /home/avg/catkin_ws/devel/share/rtabmap_ros/docs/CameraConfig.wikidoc
+rtabmap_ros_gencfg: rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/build.make
 
 .PHONY : rtabmap_ros_gencfg
 
 # Rule to build all files generated by this target.
-CMakeFiles/rtabmap_ros_gencfg.dir/build: rtabmap_ros_gencfg
+rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/build: rtabmap_ros_gencfg
 
-.PHONY : CMakeFiles/rtabmap_ros_gencfg.dir/build
+.PHONY : rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/build
 
-CMakeFiles/rtabmap_ros_gencfg.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/rtabmap_ros_gencfg.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/rtabmap_ros_gencfg.dir/clean
+rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/clean:
+	cd /home/avg/catkin_ws/build/rtabmap_ros && $(CMAKE_COMMAND) -P CMakeFiles/rtabmap_ros_gencfg.dir/cmake_clean.cmake
+.PHONY : rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/clean
 
-CMakeFiles/rtabmap_ros_gencfg.dir/depend:
-	cd /home/avg/catkin_ws/build/rtabmap_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avg/catkin_ws/src/rtabmap_ros /home/avg/catkin_ws/src/rtabmap_ros /home/avg/catkin_ws/build/rtabmap_ros /home/avg/catkin_ws/build/rtabmap_ros /home/avg/catkin_ws/build/rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/rtabmap_ros_gencfg.dir/depend
+rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/depend:
+	cd /home/avg/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avg/catkin_ws/src /home/avg/catkin_ws/src/rtabmap_ros /home/avg/catkin_ws/build /home/avg/catkin_ws/build/rtabmap_ros /home/avg/catkin_ws/build/rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : rtabmap_ros/CMakeFiles/rtabmap_ros_gencfg.dir/depend
 

@@ -1,1 +1,14 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/msg/_package_KeyPoint.lisp
+(cl:in-package rtabmap_ros-msg)
+(cl:export '(PT-VAL
+          PT
+          SIZE-VAL
+          SIZE
+          ANGLE-VAL
+          ANGLE
+          RESPONSE-VAL
+          RESPONSE
+          OCTAVE-VAL
+          OCTAVE
+          CLASS_ID-VAL
+          CLASS_ID
+))

@@ -1,1 +1,10 @@
-/home/avg/catkin_ws/devel/.private/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/_index.js
+
+"use strict";
+
+let IMUInfo = require('./IMUInfo.js');
+let Extrinsics = require('./Extrinsics.js');
+
+module.exports = {
+  IMUInfo: IMUInfo,
+  Extrinsics: Extrinsics,
+};

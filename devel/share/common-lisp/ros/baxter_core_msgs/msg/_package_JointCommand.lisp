@@ -1,1 +1,8 @@
-/home/avg/catkin_ws/devel/.private/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_JointCommand.lisp
+(cl:in-package baxter_core_msgs-msg)
+(cl:export '(MODE-VAL
+          MODE
+          COMMAND-VAL
+          COMMAND
+          NAMES-VAL
+          NAMES
+))

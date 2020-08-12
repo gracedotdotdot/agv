@@ -68,7 +68,7 @@ set(mybot_gazebo_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(mybot_gazebo_SOURCE_PREFIX /home/avg/catkin_ws/src/mybot_gazebo)
-  set(mybot_gazebo_DEVEL_PREFIX /home/avg/catkin_ws/devel/.private/mybot_gazebo)
+  set(mybot_gazebo_DEVEL_PREFIX /home/avg/catkin_ws/devel)
   set(mybot_gazebo_INSTALL_PREFIX "")
   set(mybot_gazebo_PREFIX ${mybot_gazebo_DEVEL_PREFIX})
 else()

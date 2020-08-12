@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/navfn/share/gennodejs/ros/navfn/_index.js
+
+"use strict";
+
+module.exports = {
+  srv: require('./srv/_index.js')
+};

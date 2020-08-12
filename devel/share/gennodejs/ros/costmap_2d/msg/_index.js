@@ -1,1 +1,8 @@
-/home/avg/catkin_ws/devel/.private/costmap_2d/share/gennodejs/ros/costmap_2d/msg/_index.js
+
+"use strict";
+
+let VoxelGrid = require('./VoxelGrid.js');
+
+module.exports = {
+  VoxelGrid: VoxelGrid,
+};

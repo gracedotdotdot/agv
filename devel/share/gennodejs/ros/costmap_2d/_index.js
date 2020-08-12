@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/costmap_2d/share/gennodejs/ros/costmap_2d/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+};

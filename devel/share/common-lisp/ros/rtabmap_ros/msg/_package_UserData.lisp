@@ -1,1 +1,12 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/msg/_package_UserData.lisp
+(cl:in-package rtabmap_ros-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          ROWS-VAL
+          ROWS
+          COLS-VAL
+          COLS
+          TYPE-VAL
+          TYPE
+          DATA-VAL
+          DATA
+))

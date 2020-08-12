@@ -1,1 +1,12 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/msg/_package_Link.lisp
+(cl:in-package rtabmap_ros-msg)
+(cl:export '(FROMID-VAL
+          FROMID
+          TOID-VAL
+          TOID
+          TYPE-VAL
+          TYPE
+          TRANSFORM-VAL
+          TRANSFORM
+          INFORMATION-VAL
+          INFORMATION
+))

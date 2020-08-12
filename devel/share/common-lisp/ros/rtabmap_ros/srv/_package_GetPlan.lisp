@@ -1,1 +1,10 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/srv/_package_GetPlan.lisp
+(cl:in-package rtabmap_ros-srv)
+(cl:export '(GOAL_NODE-VAL
+          GOAL_NODE
+          GOAL-VAL
+          GOAL
+          TOLERANCE-VAL
+          TOLERANCE
+          PLAN-VAL
+          PLAN
+))

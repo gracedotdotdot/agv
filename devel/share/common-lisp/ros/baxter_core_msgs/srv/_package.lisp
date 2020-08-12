@@ -1,1 +1,25 @@
-/home/avg/catkin_ws/devel/.private/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/_package.lisp
+(cl:defpackage baxter_core_msgs-srv
+  (:use )
+  (:export
+   "CLOSECAMERA"
+   "<CLOSECAMERA-REQUEST>"
+   "CLOSECAMERA-REQUEST"
+   "<CLOSECAMERA-RESPONSE>"
+   "CLOSECAMERA-RESPONSE"
+   "LISTCAMERAS"
+   "<LISTCAMERAS-REQUEST>"
+   "LISTCAMERAS-REQUEST"
+   "<LISTCAMERAS-RESPONSE>"
+   "LISTCAMERAS-RESPONSE"
+   "OPENCAMERA"
+   "<OPENCAMERA-REQUEST>"
+   "OPENCAMERA-REQUEST"
+   "<OPENCAMERA-RESPONSE>"
+   "OPENCAMERA-RESPONSE"
+   "SOLVEPOSITIONIK"
+   "<SOLVEPOSITIONIK-REQUEST>"
+   "SOLVEPOSITIONIK-REQUEST"
+   "<SOLVEPOSITIONIK-RESPONSE>"
+   "SOLVEPOSITIONIK-RESPONSE"
+  ))
+

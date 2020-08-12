@@ -1,1 +1,19 @@
-/home/avg/catkin_ws/devel/.private/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/_package.lisp
+(cl:defpackage baxter_maintenance_msgs-msg
+  (:use )
+  (:export
+   "<CALIBRATEARMDATA>"
+   "CALIBRATEARMDATA"
+   "<CALIBRATEARMENABLE>"
+   "CALIBRATEARMENABLE"
+   "<TAREDATA>"
+   "TAREDATA"
+   "<TAREENABLE>"
+   "TAREENABLE"
+   "<UPDATESOURCE>"
+   "UPDATESOURCE"
+   "<UPDATESOURCES>"
+   "UPDATESOURCES"
+   "<UPDATESTATUS>"
+   "UPDATESTATUS"
+  ))
+

@@ -68,7 +68,7 @@ set(turtlebot3_msgs_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(turtlebot3_msgs_SOURCE_PREFIX /home/avg/catkin_ws/src/turtlebot3_msgs)
-  set(turtlebot3_msgs_DEVEL_PREFIX /home/avg/catkin_ws/devel/.private/turtlebot3_msgs)
+  set(turtlebot3_msgs_DEVEL_PREFIX /home/avg/catkin_ws/devel)
   set(turtlebot3_msgs_INSTALL_PREFIX "")
   set(turtlebot3_msgs_PREFIX ${turtlebot3_msgs_DEVEL_PREFIX})
 else()

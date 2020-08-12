@@ -1,1 +1,2 @@
-/home/avg/catkin_ws/devel/.private/costmap_2d/share/costmap_2d/cmake/costmap_2d-msg-extras.cmake
+set(costmap_2d_MESSAGE_FILES "/home/avg/catkin_ws/src/navigation/costmap_2d/msg/VoxelGrid.msg")
+set(costmap_2d_SERVICE_FILES "")

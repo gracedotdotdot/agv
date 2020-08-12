@@ -68,7 +68,7 @@ set(depthimage_to_laserscan_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(depthimage_to_laserscan_SOURCE_PREFIX /home/avg/catkin_ws/src/depthimage_to_laserscan)
-  set(depthimage_to_laserscan_DEVEL_PREFIX /home/avg/catkin_ws/devel/.private/depthimage_to_laserscan)
+  set(depthimage_to_laserscan_DEVEL_PREFIX /home/avg/catkin_ws/devel)
   set(depthimage_to_laserscan_INSTALL_PREFIX "")
   set(depthimage_to_laserscan_PREFIX ${depthimage_to_laserscan_DEVEL_PREFIX})
 else()

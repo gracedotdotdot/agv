@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/avg/catkin_ws/devel/.private/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthConfig.h
+/home/avg/catkin_ws/devel/include/depthimage_to_laserscan/DepthConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits

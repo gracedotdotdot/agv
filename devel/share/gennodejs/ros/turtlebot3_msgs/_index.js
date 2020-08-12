@@ -1,1 +1,6 @@
-/home/avg/catkin_ws/devel/.private/turtlebot3_msgs/share/gennodejs/ros/turtlebot3_msgs/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+};

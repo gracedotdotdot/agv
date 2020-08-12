@@ -1,1 +1,14 @@
-/home/avg/catkin_ws/devel/.private/rtabmap_ros/share/common-lisp/ros/rtabmap_ros/srv/_package_GetNodeData.lisp
+(cl:in-package rtabmap_ros-srv)
+(cl:export '(IDS-VAL
+          IDS
+          IMAGES-VAL
+          IMAGES
+          SCAN-VAL
+          SCAN
+          GRID-VAL
+          GRID
+          USER_DATA-VAL
+          USER_DATA
+          DATA-VAL
+          DATA
+))
