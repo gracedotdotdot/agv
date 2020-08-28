@@ -91,7 +91,7 @@ ddynamic_reconfigure_auto_update_test_EXTERNAL_OBJECTS =
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/test/ddynamic_reconfigure_auto_update_test.cpp.o
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test: /home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so
-/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test: /home/avg/catkin_ws/devel/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test: /opt/ros/melodic/lib/libroscpp.so
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test: /opt/ros/melodic/lib/librosconsole.so

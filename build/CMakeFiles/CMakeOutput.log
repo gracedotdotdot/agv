@@ -1162,3 +1162,17 @@ int main(int argc, char** argv)
 #endif
 }
 
+Determining if the CXX compiler accepts the flag -Wl,--version-script,"/home/avg/catkin_ws/build/perception_pcl/pcl_ros/class_loader_hide_library_symbols__pcl_ros_io.script" passed with the following output:
+Change Dir: /home/avg/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd1ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd1ce.dir/build.make CMakeFiles/cmTC_dd1ce.dir/build
+make[1]: Entering directory '/home/avg/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dd1ce.dir/DummyCXXFile.cxx.o
+/usr/bin/c++    -Wl,--version-script,"/home/avg/catkin_ws/build/perception_pcl/pcl_ros/class_loader_hide_library_symbols__pcl_ros_io.script"   -o CMakeFiles/cmTC_dd1ce.dir/DummyCXXFile.cxx.o -c /usr/share/cmake-3.10/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTC_dd1ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd1ce.dir/link.txt --verbose=1
+/usr/bin/c++    -Wl,--version-script,"/home/avg/catkin_ws/build/perception_pcl/pcl_ros/class_loader_hide_library_symbols__pcl_ros_io.script"    -rdynamic CMakeFiles/cmTC_dd1ce.dir/DummyCXXFile.cxx.o  -o cmTC_dd1ce 
+make[1]: Leaving directory '/home/avg/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+

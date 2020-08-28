@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/avg/catkin_ws/devel/include/dynamic_reconfigure/GroupState.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/avg/catkin_ws/src/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure.h
 dynamic_reconfigure/server.h
 -
@@ -44,6 +60,18 @@ dynamic_reconfigure/ParamDescription.h
 ddynamic_reconfigure/ddynamic_reconfigure.h
 -
 boost/make_unique.hpp
+-
+
+/home/avg/catkin_ws/src/dynamic_reconfigure/include/dynamic_reconfigure/server.h
+boost/function.hpp
+-
+boost/thread/recursive_mutex.hpp
+-
+ros/node_handle.h
+-
+dynamic_reconfigure/ConfigDescription.h
+-
+dynamic_reconfigure/Reconfigure.h
 -
 
 /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
@@ -146,22 +174,6 @@ ros/message_operations.h
 dynamic_reconfigure/ParamDescription.h
 -
 
-/opt/ros/melodic/include/dynamic_reconfigure/GroupState.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
 /opt/ros/melodic/include/dynamic_reconfigure/IntParameter.h
 string
 -
@@ -252,18 +264,6 @@ ros/serialization.h
 ros/builtin_message_traits.h
 -
 ros/message_operations.h
--
-
-/opt/ros/melodic/include/dynamic_reconfigure/server.h
-boost/function.hpp
--
-boost/thread/recursive_mutex.hpp
--
-ros/node_handle.h
--
-dynamic_reconfigure/ConfigDescription.h
--
-dynamic_reconfigure/Reconfigure.h
 -
 
 /opt/ros/melodic/include/ros/advertise_options.h

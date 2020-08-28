@@ -92,7 +92,7 @@ ddynamic_reconfigure__test_EXTERNAL_OBJECTS =
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure-test: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build.make
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure-test: gtest/googlemock/libgmock.so
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure-test: /home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so
-/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure-test: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure-test: /home/avg/catkin_ws/devel/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure-test: /opt/ros/melodic/lib/libroscpp.so
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure-test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/avg/catkin_ws/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure-test: /opt/ros/melodic/lib/librosconsole.so

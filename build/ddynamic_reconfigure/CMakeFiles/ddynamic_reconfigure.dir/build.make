@@ -90,7 +90,7 @@ ddynamic_reconfigure_EXTERNAL_OBJECTS =
 
 /home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/src/ddynamic_reconfigure.cpp.o
 /home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make
-/home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so: /home/avg/catkin_ws/devel/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so: /opt/ros/melodic/lib/libroscpp.so
 /home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/avg/catkin_ws/devel/lib/libddynamic_reconfigure.so: /opt/ros/melodic/lib/librosconsole.so

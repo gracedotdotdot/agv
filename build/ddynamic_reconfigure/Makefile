@@ -113,17 +113,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -134,6 +123,17 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,154 +168,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule
+ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule
+.PHONY : ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule
 
 # Convenience name for target.
-ddynamic_reconfigure_auto_update_test: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule
+run_tests_ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule
 
-.PHONY : ddynamic_reconfigure_auto_update_test
+.PHONY : run_tests_ddynamic_reconfigure
 
 # fast build rule for target.
-ddynamic_reconfigure_auto_update_test/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build
-.PHONY : ddynamic_reconfigure_auto_update_test/fast
-
-# Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule
-
-# Convenience name for target.
-clean_test_results_ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule
-
-.PHONY : clean_test_results_ddynamic_reconfigure
-
-# fast build rule for target.
-clean_test_results_ddynamic_reconfigure/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/build
-.PHONY : clean_test_results_ddynamic_reconfigure/fast
-
-# Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
-
-# Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_nodejs: ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_nodejs
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule
-
-# Convenience name for target.
-ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule
-
-.PHONY : ddynamic_reconfigure
-
-# fast build rule for target.
-ddynamic_reconfigure/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build
-.PHONY : ddynamic_reconfigure/fast
-
-# Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
-
-# Convenience name for target.
-_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test: ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
-
-.PHONY : _run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test
-
-# fast build rule for target.
-_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build.make ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build
-.PHONY : _run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast
-
-# Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_py: ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-# Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_cpp: ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
-
-# Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-# Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_eus: ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_eus
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_eus/fast
+run_tests_ddynamic_reconfigure/fast:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/build
+.PHONY : run_tests_ddynamic_reconfigure/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/rule:
@@ -363,21 +228,6 @@ test_bool_dynamic_reconfigure_server/fast:
 .PHONY : test_bool_dynamic_reconfigure_server/fast
 
 # Convenience name for target.
-ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule
-.PHONY : ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule
-
-# Convenience name for target.
-run_tests_ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule
-
-.PHONY : run_tests_ddynamic_reconfigure
-
-# fast build rule for target.
-run_tests_ddynamic_reconfigure/fast:
-	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/build
-.PHONY : run_tests_ddynamic_reconfigure/fast
-
-# Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/rule:
 	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/rule
@@ -391,6 +241,21 @@ run_tests_ddynamic_reconfigure_rostest: ddynamic_reconfigure/CMakeFiles/run_test
 run_tests_ddynamic_reconfigure_rostest/fast:
 	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/build
 .PHONY : run_tests_ddynamic_reconfigure_rostest/fast
+
+# Convenience name for target.
+ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule
+.PHONY : ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule
+
+# Convenience name for target.
+ddynamic_reconfigure_auto_update_test: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule
+
+.PHONY : ddynamic_reconfigure_auto_update_test
+
+# fast build rule for target.
+ddynamic_reconfigure_auto_update_test/fast:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build
+.PHONY : ddynamic_reconfigure_auto_update_test/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/rule:
@@ -436,6 +301,51 @@ run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test: ddynamic_
 run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast:
 	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build
 .PHONY : run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast
+
+# Convenience name for target.
+ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule
+.PHONY : ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule
+
+# Convenience name for target.
+clean_test_results_ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule
+
+.PHONY : clean_test_results_ddynamic_reconfigure
+
+# fast build rule for target.
+clean_test_results_ddynamic_reconfigure/fast:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/build
+.PHONY : clean_test_results_ddynamic_reconfigure/fast
+
+# Convenience name for target.
+ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
+.PHONY : ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
+
+# Convenience name for target.
+_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test: ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
+
+.PHONY : _run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test
+
+# fast build rule for target.
+_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build.make ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build
+.PHONY : _run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast
+
+# Convenience name for target.
+ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule
+.PHONY : ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule
+
+# Convenience name for target.
+ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule
+
+.PHONY : ddynamic_reconfigure
+
+# fast build rule for target.
+ddynamic_reconfigure/fast:
+	cd /home/avg/catkin_ws/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build
+.PHONY : ddynamic_reconfigure/fast
 
 src/ddynamic_reconfigure.o: src/ddynamic_reconfigure.cpp.o
 
@@ -581,28 +491,22 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... ddynamic_reconfigure_auto_update_test"
-	@echo "... clean_test_results_ddynamic_reconfigure"
-	@echo "... dynamic_reconfigure_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_nodejs"
-	@echo "... edit_cache"
-	@echo "... ddynamic_reconfigure"
-	@echo "... test"
-	@echo "... _run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test"
-	@echo "... dynamic_reconfigure_generate_messages_py"
-	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_generate_messages_eus"
+	@echo "... run_tests_ddynamic_reconfigure"
 	@echo "... ddynamic_reconfigure-test"
 	@echo "... _run_tests_ddynamic_reconfigure"
 	@echo "... test_bool_dynamic_reconfigure_server"
-	@echo "... run_tests_ddynamic_reconfigure"
+	@echo "... list_install_components"
 	@echo "... run_tests_ddynamic_reconfigure_rostest"
+	@echo "... ddynamic_reconfigure_auto_update_test"
 	@echo "... _run_tests_ddynamic_reconfigure_rostest"
+	@echo "... rebuild_cache"
 	@echo "... fake_dynamic_reconfigure_server"
 	@echo "... run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test"
+	@echo "... clean_test_results_ddynamic_reconfigure"
+	@echo "... _run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test"
+	@echo "... test"
+	@echo "... ddynamic_reconfigure"
+	@echo "... edit_cache"
 	@echo "... src/ddynamic_reconfigure.o"
 	@echo "... src/ddynamic_reconfigure.i"
 	@echo "... src/ddynamic_reconfigure.s"
